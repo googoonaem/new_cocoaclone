@@ -4,8 +4,18 @@
   "description": "new cocoa clone project, ohter repositories named cocoa clones are incomplete.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.15",
+    "@babel/node": "^7.22.15",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
 }
